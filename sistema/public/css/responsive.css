@@ -1,0 +1,104 @@
+
+@media(max-width: 320px) 
+{
+	
+}
+@media(max-width: 375px) 
+{
+	
+}
+@media(max-width: 425px) 
+{
+	
+}
+@media(max-width: 768px) 
+{
+	
+}
+@media not all and (max-width:1024px) 
+{
+
+}
+@media(max-width:1024px) 
+{
+	
+} 
+@media (min-width: 1366px) 
+{
+	
+}
+@media (min-width: 1440px) 
+{
+	.modal-pedidos .header-modal, .modal-orcamento .header-modal 
+	{
+		width: 47.3%;
+	}
+	.header-modal 
+	{
+		width: 48.5%;
+	}
+	.modal-produto .header-moldal 
+	{
+		width: 45.7%;
+	}
+	.relatorios-box 
+	{
+		margin-right: 5em;
+	}
+}
+@media (min-width: 1500px)
+{
+	.relatorios-box 
+	{
+		margin-right: 8em;
+		margin-bottom: 4em;
+    	margin-top: 3em;
+	}
+	.header-modal 
+	{
+		width: 46.9%;
+	}
+	.modal-pedidos .header-modal, .modal-orcamento .header-modal 
+	{
+		width: 45.3%;
+	}
+	.modal-servico .header-modal
+	{
+		width: 46.4%;
+	}
+	.modal-produto .header-modal
+	{
+		width: 43.9%;
+	}
+}
+@media(min-width: 1600px)
+{
+	.modal-cliente .header-modal 
+	{
+		width: 43.9%;
+	}
+	.modal-pedidos .header-modal, .modal-orcamento .header-modal 
+	{
+		width: 42.3%;
+	}
+	.modal-servico .header-modal 
+	{
+		width: 43.4%;
+	}
+	.modal-produto .header-modal 
+	{
+		width: 41.3%;
+	}
+}
+@media (min-width: 1601px){
+	html, header, #Inicial h1, #Inicial h4, #Inicial img {
+		 margin:0 auto;			
+ 
+	}
+	#sidebar {
+		position: absolute;
+	}
+	body {
+		position: relative;
+	}
+}

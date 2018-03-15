@@ -1,0 +1,300 @@
+html, header, #Inicial h1, #Inicial h4, #Inicial img {
+	max-width: 1601px !important;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+}
+
+body{
+	font-size: 16px;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+a, button {
+	outline: none;
+}
+.container {
+	padding:.5em 5em;
+}
+.loginForm label > input:focus {
+	box-shadow: 0 2px 4px 0 rgba(15,151,222,0.3);
+	border: 1px solid #0F97DE;
+	background-color: #fff;
+}
+.error{
+	border: 1px solid #E03E3E !important;
+	background-color: #FFE8E8 !important;
+	color: #273142 !important;
+	box-shadow: initial;
+}
+.Encodes {
+	color: #FFFFFF;	
+	font-family: "Encode Sans Semi Condensed";		
+}
+.Encode1 {
+	font-weight: 500;	
+	line-height: 22px;
+	/*	font-size: 17px;*/
+	font-size: 1.000em;
+}
+.Encode2 {
+/*	font-size: 13px;	
+*/	font-weight: 300;	
+line-height: 21px;
+font-size: 0.813em;
+}
+.Encode3 {
+	font-size: 20px;	
+	font-size: 1.250em;	
+	font-weight: 500;	
+	line-height: 25px;
+	color: #273142;	
+}
+.Encode4 {
+	color: #266CB8;	
+	font-size: 52px;	
+	font-size: 3.250em;	
+	font-weight: 500;	
+	line-height: 65px;	
+}
+.Encode5 {
+	color: rgba(51,63,82,0.3)!important;	
+	font-size: 24px;	
+	font-size: 1.500em !important;	
+	font-weight: 500 !important;	
+	line-height: 30px !important;	
+	text-align: center;
+}
+.Encode6 {
+	color: #273142;
+	font-size: 22px;	
+	font-size: 1.29em;	
+	font-weight: 400;	
+	line-height: 28px;	
+}
+.Raleways {
+	font-family: 'Raleway';	
+}
+.Raleway1 {
+	font-weight: 700;	
+	font-size: 17px;	
+	line-height: 20px;
+	font-size: 1.063em;
+}
+.Raleway2{
+	font-size: 24px;
+	font-size: 1.500em;
+	font-weight: 700;	
+	line-height: 29px;
+}
+.Raleway3 {
+	color: #273142;		
+	font-size: 13px;	
+	font-size: 0.813em;	
+	font-weight: bold;	
+	line-height: 15px;
+}
+.Sources {
+	color: #273142;	
+	font-family: "Source Sans Pro";	
+}
+.Source1 {
+	font-size: 0.875em;
+	line-height: 18px;
+}
+.Source2 {
+	color: #8B8B8B;	
+	font-size: 11px;	
+	font-size: 0.8em;	
+	line-height: 14px;
+}
+.label {
+	color: #273142;	
+	font-family: "Source Sans Pro";	
+	font-size: 0.875em;
+	line-height: 18px;
+	margin-bottom: 0.5em;
+
+}
+label {
+	color: #273142;	
+	font-family: "Source Sans Pro";	
+	font-size: 0.875em;
+	line-height: 18px;
+	margin-bottom: 0.5em;
+
+}
+input, select, textarea {
+	border: 1px solid rgba(110,110,110,0.4);
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	font-family: "Encode Sans Semi Condensed";
+	font-size: 0.813em;
+	font-weight: 300;
+	line-height: 21px;
+	padding-left: .8em;
+}
+select {
+	height: 2.9em;
+}
+input {
+	height: 2.97em;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+}
+.btn-primary {
+	border-radius: 5px;
+	background-color: #CC3033;
+	color: #FFFFFF;
+	font-family: "Encode Sans Semi Condensed";
+	font-size: 1.063em;
+	border: none;
+	font-weight: 300;
+	line-height: 22px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: .5em 2.7em;
+	transition: .3s ease-out;
+}
+.btn-primary:active {
+	background-color: #b12a2c;
+}
+.btn-primary:hover {
+	background-color: #e2373a;
+}
+.btn-secondary {
+	border-radius: 5px;
+	background-color: #4DA1FF;
+	color: #FFFFFF;
+	font-family: "Encode Sans Semi Condensed";
+	font-size: 1.063em;
+	border: none;
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: .5em 2.7em;
+	transition: .3s ease-out;
+	text-align: center;
+}
+.btn-secondary:active {
+	background-color: #0069e0;
+}
+.btn-secondary:hover {
+	background-color: #0075fa;
+}
+.btn-three {
+	border-radius: 5px;
+	background-color: #E2E7EE;
+	color: #273142;
+	font-family: "Encode Sans Semi Condensed";
+	font-size: 1.063em;
+	border: none;
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: .5em 2.7em;
+	transition: .3s ease-out;
+}
+.btn-three:active {
+	background-color: #E2E7EE;
+}
+.btn-three:hover {
+	background-color: #E2E7EE;
+}
+
+.label-rouded,
+.label-rounded {
+    border-radius: 60px;
+    padding: 4px 16px 3px;
+    font-weight: 500
+}
+.label-custom {
+    background-color: #01c0c8
+}
+.label-success {
+    background-color: #00c292
+}
+.label-info {
+    background-color: #03a9f3
+}
+.label-warning {
+    background-color: #fec107;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+.label-danger {
+    background-color: #fb9678;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+}
+.label-megna {
+    background-color: #01c0c8
+}
+.label-primary {
+    background-color: #ab8ce4
+}
+.label-purple {
+    background-color: #9675ce
+}
+.label-red {
+    background-color: #fb3a3a
+}
+.label-inverse {
+    background-color: #4c5667
+}
+.label-default {
+    background-color: #e4e7ea
+}
+.label-white {
+    background-color: #fff
+}
+
+.empty{
+	width: 100% !important;
+    font-family: "Source Sans Pro";
+}
+
+/* alerts */
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 86%;
+    display: flex;
+    margin-left: 6.8em;
+    font-family: "Source Sans Pro";
+    cursor: pointer;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faf2cc;
+    color: #8a6d3b;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
+}
